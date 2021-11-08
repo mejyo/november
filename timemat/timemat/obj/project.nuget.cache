@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Q47D9fHfWSu0Rri6LBa7B/hOsOA3ZkefTXgjAZLZO046aZwc9q4ZL/xnfGKxSvTn1Fvks4RtvzvsG5BmGAxtw==",
+  "success": false,
+  "projectFilePath": "/Users/venky/Desktop/industryconnectgithub/Test/timemat/timemat/timemat.csproj",
+  "expectedPackageFiles": [
+    "/Users/venky/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/venky/.nuget/packages/selenium.support/4.0.1/selenium.support.4.0.1.nupkg.sha512",
+    "/Users/venky/.nuget/packages/selenium.webdriver/4.0.1/selenium.webdriver.4.0.1.nupkg.sha512",
+    "/Users/venky/.nuget/packages/selenium.webdriver.chromedriver/95.0.4638.5401/selenium.webdriver.chromedriver.95.0.4638.5401.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App with version (>= 5.0.0)\n  - Found 94 version(s) in nuget.org [ Nearest version: 3.0.0-preview8-28405-07 ]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
