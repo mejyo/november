@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1HmYLvM0RNiGOI8gEm3jOYOgYIM3LtytOTcmHzNQpvJz/SKYRfpo19sCbUq2dD28KqH+CLcl2jH9Gr/IY/OYBw==",
+  "dgSpecHash": "1F1nSrLTKy+8zFh+M4f4eEzSQ1aYGsE4GQqDDekQ6y7E41Pj2zKJ+3fSGpkpPGomLYW4Eg56BK8RaMjbHBQ3WA==",
   "success": true,
-  "projectFilePath": "/Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/TurnupPortalTest.csproj",
+  "projectFilePath": "/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/TurnupPortalTest.csproj",
   "expectedPackageFiles": [
     "/Users/venky/.nuget/packages/microsoft.netcore.app/2.2.8/microsoft.netcore.app.2.2.8.nupkg.sha512",
     "/Users/venky/.nuget/packages/microsoft.netcore.dotnetapphost/2.2.8/microsoft.netcore.dotnetapphost.2.2.8.nupkg.sha512",

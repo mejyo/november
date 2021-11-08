@@ -4,7 +4,7 @@ using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace October2021
+namespace TurnupPortalTest
 {
     class Program
     {

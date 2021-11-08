@@ -822,11 +822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/TurnupPortalTest.csproj",
+      "projectUniqueName": "/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/TurnupPortalTest.csproj",
       "projectName": "TurnupPortalTest",
-      "projectPath": "/Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/TurnupPortalTest.csproj",
+      "projectPath": "/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/TurnupPortalTest.csproj",
       "packagesPath": "/Users/venky/.nuget/packages/",
-      "outputPath": "/Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/obj/",
+      "outputPath": "/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/venky/.config/NuGet/NuGet.Config"

@@ -822,11 +822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/TimeandMaterial/TimeandMaterial/EditandDeleteTime.csproj",
+      "projectUniqueName": "/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/TimeandMaterial/TimeandMaterial/EditandDeleteTime.csproj",
       "projectName": "EditandDeleteTime",
-      "projectPath": "/Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/TimeandMaterial/TimeandMaterial/EditandDeleteTime.csproj",
+      "projectPath": "/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/TimeandMaterial/TimeandMaterial/EditandDeleteTime.csproj",
       "packagesPath": "/Users/venky/.nuget/packages/",
-      "outputPath": "/Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/TimeandMaterial/TimeandMaterial/obj/",
+      "outputPath": "/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/TimeandMaterial/TimeandMaterial/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/venky/.config/NuGet/NuGet.Config"

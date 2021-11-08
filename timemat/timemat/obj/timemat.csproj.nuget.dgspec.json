@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/venky/Desktop/industryconnectgithub/Test/timemat/timemat/timemat.csproj": {}
+    "/Users/venky/Desktop/industryconnectgithub/november/timemat/timemat/timemat.csproj": {}
   },
   "projects": {
-    "/Users/venky/Desktop/industryconnectgithub/Test/timemat/timemat/timemat.csproj": {
+    "/Users/venky/Desktop/industryconnectgithub/november/timemat/timemat/timemat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/venky/Desktop/industryconnectgithub/Test/timemat/timemat/timemat.csproj",
+        "projectUniqueName": "/Users/venky/Desktop/industryconnectgithub/november/timemat/timemat/timemat.csproj",
         "projectName": "timemat",
-        "projectPath": "/Users/venky/Desktop/industryconnectgithub/Test/timemat/timemat/timemat.csproj",
+        "projectPath": "/Users/venky/Desktop/industryconnectgithub/november/timemat/timemat/timemat.csproj",
         "packagesPath": "/Users/venky/.nuget/packages/",
-        "outputPath": "/Users/venky/Desktop/industryconnectgithub/Test/timemat/timemat/obj/",
+        "outputPath": "/Users/venky/Desktop/industryconnectgithub/november/timemat/timemat/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/venky/.config/NuGet/NuGet.Config"
@@ -40,7 +40,7 @@
           "dependencies": {
             "Microsoft.NETCore.App": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[2.2.8, )"
             },
             "Selenium.Support": {
               "target": "Package",

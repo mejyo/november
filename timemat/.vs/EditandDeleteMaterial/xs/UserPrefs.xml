@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{15856483-EEB8-48AF-A448-C308CAA10095}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="timemat/Program.cs">
     <Files>
-      <File FileName="timemat/Program.cs" Line="154" Column="2" />
+      <File FileName="timemat/Program.cs" Line="6" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EditandDeleteMaterial" expanded="True" selected="True">
+          <Node name="EditandDeleteMaterial" expanded="True">
             <Node name="timemat" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

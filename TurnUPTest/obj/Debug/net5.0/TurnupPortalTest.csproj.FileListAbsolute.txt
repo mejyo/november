@@ -17,3 +17,11 @@
 /Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/obj/Debug/net5.0/ref/TurnupPortalTest.dll
 /Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.pdb
 /Users/venky/Desktop/industryconnectgithub/Test/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.genruntimeconfig.cache
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.csproj.AssemblyReference.cache
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.AssemblyInfoInputs.cache
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.AssemblyInfo.cs
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.csproj.CoreCompileInputs.cache
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.dll
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/ref/TurnupPortalTest.dll
+/Users/venky/Desktop/industryconnectgithub/november/TurnUPTest/obj/Debug/net5.0/TurnupPortalTest.pdb
