@@ -7,7 +7,7 @@ namespace timemat
 {
     class Program
     {
-    
+
 
         static void Main(string[] args)
         {
@@ -60,7 +60,7 @@ namespace timemat
             IWebElement material = driver.FindElement(By.XPath("//*[@id='TimeMaterialEditForm']/div/div[1]/div/span[1]/span/span[2]/span"));
             material.Click();
 
-       
+
 
             IWebElement codebox = driver.FindElement(By.Id("Code"));
             codebox.SendKeys("NOVEMBERMAT");
@@ -82,16 +82,28 @@ namespace timemat
             savebutton.Click();
             Thread.Sleep(2000);
 
-            // Edit time and Material//
 
-           
             //go to last page and check the time record has created
             IWebElement lastpage = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[4]/a[4]/span"));
             lastpage.Click();
             Thread.Sleep(2000);
 
+            IWebElement code = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[3]/table/tbody/tr[2]/td[1]"));
 
-            // Edit time and Material////*[@id="tmsGrid"]/div[3]/table/tbody/tr[2]/td[5]/a[1]
+
+            if (code.Text == "NOVEMBERMAT")
+            {
+
+                Console.WriteLine("Code data successfully,Test passed.");
+            }
+            else
+            {
+                Console.WriteLine("Test failed.");
+            }
+
+
+
+            // Edit time and Material
             IWebElement editTimeAndMaterial = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[3]/table/tbody/tr[2]/td[5]/a[1]"));
             editTimeAndMaterial.Click();
             Thread.Sleep(2000);
@@ -112,10 +124,10 @@ namespace timemat
 
             IWebElement priceperunit1 = driver.FindElement(By.XPath("//*[@id='TimeMaterialEditForm']/div/div[4]/div/span[1]/span/input[1]"));
             priceperunit1.Click();
-           
-          // First clear the Price Per unit textbox and enter the value
 
-          
+            // First clear the Price Per unit textbox and enter the value
+
+
             IWebElement pricetextBox = driver.FindElement(By.Id("Price"));
             pricetextBox.Clear();
 
@@ -133,21 +145,33 @@ namespace timemat
             lastpage1.Click();
             Thread.Sleep(2000);
 
+            IWebElement editedcode1 = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[3]/table/tbody/tr[2]/td[1]"));
 
-            // Deeleting the edited data
+
+            if (editedcode1.Text == "Editnovember")
+            {
+
+                Console.WriteLine("Code edited successfully,Test passed.");
+            }
+            else
+            {
+                Console.WriteLine("Test failed.");
+            }
+
+            // Deleting the edited data
+
             IWebElement deletebutton = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[3]/table/tbody/tr[2]/td[5]/a[2]"));
             deletebutton.Click();
             Thread.Sleep(2000);
 
-           
+
             IAlert simpleAlert = driver.SwitchTo().Alert();
             String alertText = simpleAlert.Text;
             simpleAlert.Accept();
             Thread.Sleep(2000);
 
-
-
-
+            Console.WriteLine("Code deleted successfully,Test passed.");
+            
 
         }
     }

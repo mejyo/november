@@ -156,6 +156,21 @@ namespace October2021
             lastpage1.Click();
             Thread.Sleep(2000);
 
+            IWebElement actualcode1 = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[3]/table/tbody/tr[2]/td[1]"));
+
+
+            if (actualcode1.Text == "EditTimenovember")
+            {
+                Console.WriteLine("Time record edited successfully.");
+            }
+
+            else
+            {
+                Console.WriteLine("Test failed");
+
+
+            }
+
 
             // Deleting the edited data
 
@@ -169,7 +184,7 @@ namespace October2021
             simpleAlert.Accept();
             Thread.Sleep(6000);
 
-
+            Console.WriteLine("Time record deleted successfully.");
 
         }
     }
