@@ -1,19 +1,27 @@
 ﻿<Properties StartupConfiguration="{C677AAE6-4226-4E14-AE99-AA7E921DB1B8}|Default">
   <MonoDevelop.Ide.ItemProperties.EditandDeleteTime PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TimeandMaterial/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimeandMaterial/Pages/TMPage.cs">
     <Files>
-      <File FileName="TimeandMaterial/Program.cs" Line="159" Column="77" />
+      <File FileName="TimeandMaterial/Tests/TM_Tests.cs" Line="56" Column="1" />
+      <File FileName="TimeandMaterial/Tests/Employe_tests.cs" />
+      <File FileName="TimeandMaterial/Pages/TMPage.cs" Line="184" Column="30" />
+      <File FileName="TimeandMaterial/Pages/EmployeePage.cs" />
+      <File FileName="TimeandMaterial/Pages/LoginPage.cs" />
+      <File FileName="TimeandMaterial/Pages/HomePage.cs" />
+      <File FileName="TimeandMaterial/Utilities/CommonDriver.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EditandDeleteTime" expanded="True" selected="True">
+          <Node name="EditandDeleteTime" expanded="True">
             <Node name="EditandDeleteTime" expanded="True" />
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="EditandDeleteTime" expanded="True" selected="True" />
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

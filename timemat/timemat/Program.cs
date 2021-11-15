@@ -83,7 +83,8 @@ namespace timemat
             Thread.Sleep(2000);
 
 
-            //go to last page and check the time record has created
+            //go to last page and check the material record has been created
+
             IWebElement lastpage = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[4]/a[4]/span"));
             lastpage.Click();
             Thread.Sleep(2000);
@@ -94,7 +95,7 @@ namespace timemat
             if (code.Text == "NOVEMBERMAT")
             {
 
-                Console.WriteLine("Code data successfully,Test passed.");
+                Console.WriteLine("Material data created successfully,Test passed.");
             }
             else
             {
@@ -151,7 +152,7 @@ namespace timemat
             if (editedcode1.Text == "Editnovember")
             {
 
-                Console.WriteLine("Code edited successfully,Test passed.");
+                Console.WriteLine("Material data edited successfully,Test passed.");
             }
             else
             {
@@ -170,7 +171,7 @@ namespace timemat
             simpleAlert.Accept();
             Thread.Sleep(2000);
 
-            Console.WriteLine("Code deleted successfully,Test passed.");
+            Console.WriteLine("Material data deleted successfully,Test passed.");
             
 
         }
